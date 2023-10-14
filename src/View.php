@@ -1,9 +1,17 @@
 <?php
 
-namespace Keyjay77\GuessNumber\View;
+namespace keyjay77\GuessNumber\View;
 use function cli\line;
+
 
 function showGame()
 {
-    line("The game's interface");
+    line("This is a guess-number game! Please, enter a number from 1 to " . MAX_NUM);
+    line("If you wish to exit the game write 0.");
+    line("Enter a number.");
+}
+
+function showMessage($message)
+{
+    line($message);
 }

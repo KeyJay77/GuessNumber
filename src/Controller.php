@@ -1,10 +1,12 @@
 <?php
 
-namespace Keyjay77\GuessNumber\Controller;
+namespace keyjay77\GuessNumber\Controller;
 use function Keyjay77\GuessNumber\View\showGame;
-use function cli\line;
+use function Keyjay77\GuessNumber\Model\guessNum;
 
 function startGame()
 {
-    line("The guess-number game has been started!\n Good luck!");
+    showGame();
+    guessNum();
+    
 }
