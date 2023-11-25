@@ -8,8 +8,7 @@ class GameView
 {
     public function showGame()
     {
-        line("This is a guess-number game! In this game you enter a number from 1 to " . MAX_NUM);
-
+        line("This is a guess-number game! In this game you enter a number from 1 to 100");
     }
     public function exitGame()
     {

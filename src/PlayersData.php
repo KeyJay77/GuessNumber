@@ -10,11 +10,11 @@ class PlayersData
     public $guessing_number;
     public $result;
     public $attempt_number;
-    public $input_numbers; 
-    public $game_feedback;   
-    
-    
-    
+    public $input_numbers;
+    public $game_feedback;
+
+
+
 
     public function __construct()
     {
@@ -22,5 +22,5 @@ class PlayersData
         $this->attempt_number = array();
         $this->input_numbers = array();
         $this->game_feedback = array();
-    }    
+    }
 }
