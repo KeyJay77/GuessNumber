@@ -1,5 +1,5 @@
 {
-    "name": "keyjay/guess-number",
+    "name": "keyjay77/guess-number",
     "autoload": {
         "psr-4": {
             "Keyjay\\GuessNumberGame\\": "src/"
